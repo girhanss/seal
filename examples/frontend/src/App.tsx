@@ -27,14 +27,9 @@ function LandingPage() {
                     style={{ height: "100%" }}
                 >
                     <div style={{ textAlign: "center" }}>
-                        <h2>Allowlist Example</h2>
+                        <h2>Allowlist</h2>
                         <p>
-                            Shows how a creator can define an allowlist based
-                            access. The creator first creates an allowlist and
-                            can add or remove users in the list. The creator can
-                            then associate encrypted files to the allowlist.
-                            Only users in the allowlist have access to decrypt
-                            the files.
+                            task1
                         </p>
                     </div>
                     <Link to="/allowlist-example">
@@ -50,18 +45,9 @@ function LandingPage() {
                     style={{ height: "100%" }}
                 >
                     <div style={{ textAlign: "center" }}>
-                        <h2>Subscription Example</h2>
+                        <h2>Subscription</h2>
                         <p>
-                            Shows how a creator can define a subscription based
-                            access to its published files. The creator defines
-                            subcription fee and how long a subscription is valid
-                            for. The creator can then associate encrypted files
-                            to the service. Only users who have purchased a
-                            subscription (NFT) have access to decrypt the files,
-                            along with the condition that the subscription must
-                            not have expired (i.e. the subscription creation
-                            timestamp plus the TTL is smaller than the current
-                            clock time).
+                            task2
                         </p>
                     </div>
                     <Link to="/subscription-example">
